@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Chain Generator</title>
+<script type="text/javascript" src="analytics.js"></script>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Chain Generator</h1>
+<br />
+<b>I will generate the chain of your selection.</b>
+<br />
+<form action="chains.php" method="POST">
+Type:
+<br />
+<input type="radio" name="type" value="parallel" />Parallel
+<br />
+<input type="radio" name="type" value="diamond" />Diamonds
+<br />
+Height:<input type="text" name="h" />
+<br />
+Width:<input type="text" name="w" />
+<br />
+Character(s)*<input type="text" name="char" />
+<br />
+Color:<select name="color">
+	<option value="black">black</option>
+	<option value="brown">brown</option>
+	<option value="red">red</option>
+	<option value="orange">orange</option>
+	<option value="yellow">yellow</option>
+	<option value="green">green</option>
+	<option value="cyan">cyan</option>
+	<option value="blue">blue</option>
+	<option value="purple">purple</option>
+	<option value="white">white (highlight to see)</option>
+</select>
+<br />
+<input type="submit" />
+</form>
+<br />
+<br />
+<font size="1">*Note: the chain will look funny if you enter more than 1 character</font>
+<br />
+<a href=index.php>Back to home</a>
+</body>
+</html>

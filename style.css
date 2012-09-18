@@ -1,0 +1,8 @@
+h1 {text-align:center;}
+body {background-color:#FFFFFF;}
+body
+{
+border-style:solid;
+border-color:red;
+}
+body.out{font-family:"Courier", serif;}
