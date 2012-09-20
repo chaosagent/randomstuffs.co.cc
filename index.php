@@ -4,6 +4,7 @@
 <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
+<?php include('ads.html'); ?>
 <font size=40>STUFFS:</font>
 <br />
 <br />
@@ -14,5 +15,6 @@
 <a href=chains.html>ASCII Chains</a>
 <br />
 <a href=slopeint.html>intercept finder</a>
+<?php include('ads.html'); ?>
 </body>
 </html>
